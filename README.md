@@ -11,8 +11,7 @@ Ce dépôt contient l'ensemble des scripts d'analyse utilisés pour un mémoire 
 - `H5.py` → Comparaison des scores SCOFF entre les régimes
 - `H6.py` → Perception de l’impact énergétique et satisfaction selon le régime
 - `results/` → Graphiques et résumés générés automatiquement
-- `data.csv` → (non inclus pour raisons de confidentialité)
-
+- `data.csv` → Données du questionnaire
 ## ⚙️ Utilisation
 
 Exécute chaque script individuellement via Python 3.10. Les résultats seront générés dans le dossier `results/`.
