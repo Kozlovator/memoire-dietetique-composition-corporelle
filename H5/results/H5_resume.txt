@@ -1,0 +1,6 @@
+H5 – Relation AI vs HP sur le score SCOFF
+
+Test comparatif : Mann-Whitney U
+stat = 291.500  p = 0.2106
+Cohen d = 0.402  IC95% [-0.22; 1.02]
+N HP = 24   |   N AI = 20

@@ -1,0 +1,37 @@
+🎯 Objectif de l’analyse
+Évaluer si le type d’alimentation – intuitive (AI) vs hyperprotéinée (HP) – est associé à un niveau de risque de troubles du comportement alimentaire, mesuré par le score SCOFF.
+
+L’hypothèse explorée est la suivante :
+
+Les personnes suivant une alimentation intuitive présentent un score SCOFF plus bas (donc moins de signaux de trouble) que celles suivant un régime hyperprotéiné.
+
+🧮 Méthodologie
+• Le score SCOFF est basé sur 5 questions dichotomiques (oui/non) évaluant la présence de comportements à risque (vomissements provoqués, perte de poids rapide, obsession pour la nourriture, etc.).
+→ Chaque réponse "oui" vaut 1 point, donnant un score global allant de 0 à 5.
+
+• Les groupes AI et HP ont été définis sur base des réponses aux questions « Suivez-vous un régime hyperprotéiné ? » et « Votre alimentation est-elle intuitive ? »
+→ AI = "oui" à la seconde, "non" à la première ; HP = "oui" à la première.
+
+• Comparaison du score SCOFF entre groupes à l’aide du test de Mann–Whitney U (distribution non normale).
+• Calcul de la taille d’effet via Cohen’s d avec intervalle de confiance à 95 % (bootstrap 2000 échantillons).
+
+📊 Résultats
+• Test de Mann–Whitney U
+→ U = 291.5, p = 0.211
+→ Pas de différence significative au seuil de 5 %
+
+• Cohen’s d = 0.402
+→ Taille d’effet modérée : les HP ont en moyenne un score SCOFF un peu plus élevé que les AI.
+
+• Intervalle de confiance à 95 % = [–0.22 ; 1.02]
+→ Il inclut 0, donc la différence pourrait être due au hasard.
+
+• Effectifs :
+→ N HP = 24
+→ N AI = 20
+
+📌 Conclusion
+Bien que le score SCOFF soit en moyenne plus élevé chez les participants suivant un régime hyperprotéiné (taille d’effet modérée), la différence n’est pas statistiquement significative (p = 0.211).
+
+L’intervalle de confiance large et incluant zéro invite à la prudence : ces résultats suggèrent une tendance, mais ne permettent pas de conclure formellement à une différence entre les groupes.
+→ Un échantillon plus large permettrait de confirmer (ou infirmer) cette tendance.

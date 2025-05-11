@@ -1,0 +1,6 @@
+H6old – Impact perçu énergie & satisfaction : HP vs AI
+
+Mann-Whitney U : stat = 237.500, p = 0.1342
+Cohen d       : 0.486
+IC95 % diff. moyennes : [-0.10 ; 0.93]
+N HP = 20  |  N AI = 19

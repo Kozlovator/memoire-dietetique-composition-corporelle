@@ -1,0 +1,6 @@
+=== Score malbouffe : méthode standardisée (α=0.71) ===
+Items utilisés : frites, croquettes, friture_viande, prep_viande, pizza_lasagne, chips, bonbons, glaces, biscuits, sodas_sucres, charcuterie_grasse, salades_tartiner
+Test comparatif : Mann-Whitney U
+stat = 265.000  p = 0.5636
+Cohen d = 0.171  IC95% [-0.42;0.77]
+N HP=24  |  N AI=20

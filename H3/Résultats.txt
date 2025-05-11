@@ -1,0 +1,38 @@
+🎯 Objectif de l’analyse
+
+Évaluer s’il existe une association entre le stress émotionnel et la consommation de snacks hyper-palatables (ex. : bonbons, chips, fritures, glaces…).
+
+L’hypothèse explorée est la suivante :
+
+Un niveau plus élevé de stress émotionnel est associé à une consommation plus fréquente de snacks sucrés/frits.
+
+🧮 Méthodologie
+
+• Le stress émotionnel a été mesuré à l’aide d’une échelle de détresse auto-rapportée sur les 14 derniers jours, composée de 5 items (ex. : "vous êtes-vous senti(e) découragé(e) ?", "anxieux(se) ?", etc.). Les réponses (Likert 0–3) ont été sommées pour obtenir un score global de stress.
+
+• 10 aliments/snacks hyper-palatables ont été sélectionnés (croquettes, beignets, chips, bonbons, glaces, etc.).
+
+• Chaque réponse a été convertie en fréquence hebdomadaire de consommation.
+
+• Les données manquantes (0.5 % des valeurs) ont été imputées par la médiane de chaque aliment (⚠️ très faible proportion de valeurs manquantes → impact négligeable).
+
+• Les fréquences ont été standardisées (z-scores), puis moyennées pour obtenir un score global de consommation de snacks.
+
+📊 Résultats
+
+• Corrélation de Spearman : ρ = –0.044, p = 0.776
+→ Aucune corrélation significative entre stress et consommation de snacks.
+
+• Régression linéaire : β = –0.024, R² = 0.018
+→ Très faible pouvoir explicatif du stress sur la consommation de snacks.
+
+• Cronbach α = 0.599
+→ Cohérence interne des items snacks en-dessous du seuil acceptable (α < 0.70), ce qui peut limiter la fiabilité du score composite.
+
+• N = 44 participants avec données complètes.
+
+📌 Conclusion
+
+Les données ne soutiennent pas l’hypothèse d’un lien entre stress émotionnel et consommation de snacks hyper-palatables.
+La corrélation est quasi nulle, la taille d’effet est très faible et non significative.
+De plus, la cohérence interne des items est relativement faible, ce qui appelle à la prudence dans l’interprétation des résultats.

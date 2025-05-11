@@ -1,0 +1,36 @@
+🎯 Objectif de l’analyse
+Évaluer s’il existe une association entre la fréquence d’activité physique et l’auto-perception de l’état de santé général.
+
+L’hypothèse explorée est la suivante :
+
+Une pratique plus fréquente d’activité physique est associée à une meilleure santé perçue.
+
+🧮 Méthodologie
+• Santé perçue mesurée par une question auto-rapportée (« Comment est votre état de santé en général ? »), avec 5 modalités allant de Très mauvais (1) à Très bon (5).
+→ Chaque réponse a été recodée numériquement sur une échelle de 1 à 5.
+
+• Fréquence de sport évaluée via une question sur la régularité de l’activité physique.
+→ Les réponses qualitatives (Jamais, Rarement, Oui, 1 à 3 fois/semaine, Oui, > 3 fois/semaine) ont été transformées en estimations numériques (0, 0.5, 2, 5 séances par semaine).
+
+• Données manquantes : 0 valeur manquante pour chacune des deux variables → aucune imputation nécessaire.
+
+• Une corrélation de Spearman a été utilisée pour détecter une association monotone entre les deux variables, suivie d’une régression linéaire pour estimer l'effet moyen d'une séance supplémentaire sur la santé perçue.
+
+📊 Résultats
+• Corrélation de Spearman : ρ = 0.280, p = 0.066
+→ Corrélation positive faible à modérée, non significative au seuil de 5 %. Tendance suggérée mais à interpréter avec prudence.
+
+• Régression linéaire : β = 0.160
+→ Chaque séance supplémentaire de sport par semaine est associée à une amélioration de 0.16 point sur l’échelle de santé perçue (1–5).
+
+• R² = 0.084
+→ La fréquence sportive explique 8,4 % de la variance observée dans la santé perçue.
+
+• N = 44 participants avec données complètes.
+
+📌 Conclusion
+Les données indiquent une tendance positive entre la fréquence d’activité physique et la santé perçue, mais cette relation n’est pas significative statistiquement (p = 0.066).
+L’effet estimé est modéré (β = 0.160), mais la part de variance expliquée reste faible (R² = 0.084), suggérant que d’autres facteurs influencent la santé perçue.
+Un échantillon plus large permettrait de confirmer cette tendance.
+
+Souhaites-tu une version en anglais ou prête à intégrer directement dans ton mémoire avec mise en forme académique ?

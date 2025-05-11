@@ -1,0 +1,74 @@
+🎯 Objectif de l’analyse
+Évaluer si les individus suivant un régime hyperprotéiné (HP) perçoivent un impact plus positif de leur alimentation sur leur énergie et leur satisfaction générale que ceux ayant une alimentation intuitive (AI).
+
+L’hypothèse testée est la suivante :
+
+Les personnes suivant un régime hyperprotéiné rapportent plus fréquemment un effet perçu positif de leur alimentation sur l’énergie et la satisfaction.
+
+🧮 Méthodologie
+Deux groupes ont été définis à partir des réponses :
+
+HP : suit un régime hyperprotéiné.
+
+AI : suit une alimentation intuitive, sans être HP.
+
+Une question a été utilisée :
+
+« Quels sont les effets de votre alimentation actuelle sur votre énergie ? »
+
+Les réponses ont été transformées en score ordinal de 1 à 5 :
+
+1 = Très négative
+
+2 = Plutôt négative
+
+3 = Neutre
+
+4 = Plutôt positive
+
+5 = Très positive
+
+Les réponses non fournies ou libres non interprétables ont été exclues.
+
+Deux analyses ont été menées :
+
+Un test Mann–Whitney U sur les scores pour comparer la distribution entre HP et AI.
+
+Un calcul de la taille d’effet (Cohen d).
+
+Un intervalle de confiance (IC95%) bootstrap de la différence de moyennes.
+
+📊 Résultats
+Mann–Whitney U :
+stat = 237.500, p = 0.1342
+→ Aucune différence statistiquement significative (p > 0.05)
+
+Taille d’effet (Cohen d) :
+d = 0.486
+→ Effet de taille modérée en faveur du groupe HP
+
+Intervalle de confiance 95 % de la différence de moyennes :
+[-0.10 ; 0.93]
+→ Il inclut 0, donc la différence n’est pas assurée
+
+Effectifs :
+HP = 20 | AI = 19
+
+📌 Conclusion
+Les résultats suggèrent une tendance : les individus HP perçoivent leur alimentation comme ayant un impact plus positif sur leur énergie et satisfaction que les AI (score moyen plus élevé, d ≈ 0.5).
+
+Cependant, cette différence n’est pas significative statistiquement (p = 0.13) et l’intervalle de confiance englobe la possibilité d’aucun effet réel.
+
+⚠️ Limites
+Taille d’échantillon limitée → puissance statistique faible
+
+Distribution ordinales → moins de finesse que des mesures continues
+
+Effet réel possible mais non détecté à ce niveau de puissance
+
+🧭 Recommandations
+Augmenter la taille d’échantillon pour une puissance suffisante.
+
+Intégrer d’autres variables modératrices (niveau d’activité physique, sexe, etc.).
+
+Approfondir via une analyse multinomiale si les catégories sont bien remplies.

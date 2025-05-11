@@ -1,0 +1,9 @@
+H3 – Stress émotionnel & consommation de snacks hyper-palatables
+
+Cronbach α snacks = 0.599  (items : croquettes, friture_viande, beignets_pommes, legumes_frits, chips, bonbons, glaces, biscuits, pates_a_tartiner, beurre_cacahouetes)
+
+Spearman ρ = -0.044  (p = 0.7758)
+Régression linéaire : β = -0.024 per point stress, R² = 0.018
+N = 44 participants complets
+
+Total snack cells = 440, missing = 2 (0.5%)

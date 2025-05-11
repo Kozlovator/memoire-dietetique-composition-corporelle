@@ -1,0 +1,13 @@
+H4 – Activité physique et santé perçue
+
+Colonnes :
+  Santé  → comment est votre etat de sante en general?
+  Sport  → pratiquez-vous une activite physique reguliere ?
+
+Valeurs manquantes imputées par médiane :
+  Santé  : 0 / 44
+  Sport  : 0 / 44
+
+Spearman ρ = 0.280  (p = 0.0661)
+Régression linéaire : β = 0.160 point santé / séance, R² = 0.084
+N = 44 participants complets

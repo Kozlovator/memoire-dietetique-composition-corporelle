@@ -1,0 +1,23 @@
+🎯 Objectif de l’analyse
+
+Comparer la consommation de malbouffe entre deux groupes alimentaires :
+• HP : personnes suivant un régime hyperprotéiné
+• AI : personnes suivant une alimentation intuitive
+
+🧮 Méthodologie
+
+• 12 aliments associés à la malbouffe ont été sélectionnés (ex. : frites, sodas, plats préparés, charcuterie...).
+• Chaque réponse a été convertie en nombre de prises par semaine.
+• Les fréquences ont été standardisées (z-scores) pour rendre les items comparables.
+• La cohérence des items a été vérifiée via le coefficient de Cronbach (α = 0.72 → acceptable).
+• Un score global de malbouffe a été calculé à l’aide d’une analyse en composantes principales (PCA), qui pondère automatiquement les items selon leur contribution statistique.
+
+📊 Résultats
+
+• Test statistique utilisé : Mann-Whitney U (car les distributions ne sont pas normales).
+• Résultat : aucune différence significative entre les groupes (p = 0.56).
+• Taille d’effet faible (Cohen d = 0.18), avec un intervalle de confiance large ([-0.42 ; 0.75]).
+
+📌 Conclusion
+
+Les données ne montrent pas de différence claire entre les groupes en termes de consommation de malbouffe. Le score est statistiquement fiable, mais les écarts entre les groupes sont faibles et non significatifs.

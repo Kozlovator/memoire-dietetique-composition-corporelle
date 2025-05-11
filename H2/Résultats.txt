@@ -1,0 +1,30 @@
+🎯 Objectif de l’analyse
+
+Comparer la fréquence des comportements alimentaires à risque en fonction du sexe (Homme vs Femme), en se basant sur deux indicateurs :
+• Le score SCOFF (outil de dépistage des troubles du comportement alimentaire)
+• La fréquence de sauts de repas (au moins un repas sauté par semaine)
+
+🧮 Méthodologie
+
+• Les réponses aux 5 questions du questionnaire SCOFF ont été codées en binaire (Oui = 1, Non = 0), puis sommées pour obtenir un score global (0–5).
+• La fréquence des sauts de repas a été recodée et transformée en variable binaire (≥1 repas sauté par semaine = oui).
+• Les comparaisons ont été effectuées entre les femmes et les hommes :
+
+χ² pour la variable "saut de repas" (données catégorielles)
+
+Test de Mann-Whitney U pour le score SCOFF (car non normalité des distributions)
+• La taille d’effet a été mesurée via Cohen’s d (avec IC 95 % par bootstrap)
+
+📊 Résultats
+
+• Saut de repas : χ² = 0.46, p = 0.497
+• Score SCOFF : Mann–Whitney U = 241.5, p = 0.773
+• Cohen d = 0.08, IC95% = [–0.49 ; 0.71]
+• Effectifs : 17 femmes, 27 hommes
+
+⚠️ Les deux p-values sont élevées (p > 0.05), ce qui signifie que les différences observées pourraient très probablement être dues au hasard. En d'autres termes, il n’y a aucune preuve statistique de différences entre les sexes sur ces comportements.
+
+📌 Conclusion
+
+Les données ne montrent pas de différence significative entre les femmes et les hommes en ce qui concerne la fréquence des sauts de repas ou le score SCOFF.
+La taille d’effet est très faible, et les intervalles de confiance sont larges, renforçant l’idée que les différences observées sont ni robustes ni concluantes sur le plan statistique.
