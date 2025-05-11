@@ -1,6 +1,6 @@
-# Étude comparative – Régimes spécifiques et composition corporelle
+# Effets du régime hyperprotéiné et de l’alimentation intuitive sur les habitudes alimentaires et le bien-être psychologique chez des personnes fréquentant régulièrement les salles de fitness
 
-Ce dépôt contient l'ensemble des scripts d'analyse utilisés pour un mémoire de fin d'études en kinésithérapie "Effets du régime hyperprotéiné et de l’alimentation intuitive sur les habitudes alimentaires et le bien-être psychologique chez des personnes fréquentant régulièrement les salles de fitness".
+Ce dépôt contient l'ensemble des scripts d'analyse utilisés pour un mémoire de fin d'études en kinésithérapie.
 
 ## 📁 Structure
 
